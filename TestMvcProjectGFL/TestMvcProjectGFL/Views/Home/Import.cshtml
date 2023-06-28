@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Import";
+}
+<h2>@ViewBag.Title</h2>
+
+@using (Html.BeginForm("Import", "Home", FormMethod.Post, new { enctype = "multipart/form-data" })) {
+    <table cellpadding="2" cellspacing="2">
+        <tr>
+            <td>XML file</td>
+            <td><input type="file" name="xmlFile" /></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td><input type="submit" value="Import" /></td>
+        </tr>
+    </table>
+}

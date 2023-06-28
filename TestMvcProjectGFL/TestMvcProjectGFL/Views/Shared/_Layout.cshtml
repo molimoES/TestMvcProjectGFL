@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="header">
+        <ul class="nav-list">
+            <li>
+                <a href="/Home/Index"><b>Main page</b></a>
+            </li>
+            <li>
+                <a href="/Home/Export"><b>Export to XML</b></a>
+            </li>
+            <li>
+                <a href="/Home/Import"><b>Import from XML</b></a>
+            </li>
+        </ul>
+    </div>
+
+    @RenderBody()
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Tree Catalogs";
+}
+
+<div>
+    <h2></b>"Folder" - @ViewBag.Folder</b></h2>
+
+    @foreach (var catalog in ViewBag.Catalogs) {
+        <p><a href="/Home/Index/@catalog.Id"><b>@catalog.Name</b></a></p>
+    }
+</div>

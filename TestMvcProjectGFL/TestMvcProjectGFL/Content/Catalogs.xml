@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Catalog>
+    <Id>1</Id>
+    <Name>Creating Digital Images</Name>
+    <ParentId>0</ParentId>
+  </Catalog>
+  <Catalog>
+    <Id>2</Id>
+    <Name>Resources</Name>
+    <ParentId>1</ParentId>
+  </Catalog>
+  <Catalog>
+    <Id>3</Id>
+    <Name>Evidence</Name>
+    <ParentId>1</ParentId>
+  </Catalog>
+  <Catalog>
+    <Id>4</Id>
+    <Name>Graphic Products</Name>
+    <ParentId>1</ParentId>
+  </Catalog>
+  <Catalog>
+    <Id>5</Id>
+    <Name>Primary Sources</Name>
+    <ParentId>2</ParentId>
+  </Catalog>
+  <Catalog>
+    <Id>7</Id>
+    <Name>Process</Name>
+    <ParentId>4</ParentId>
+  </Catalog>
+  <Catalog>
+    <Id>8</Id>
+    <Name>Final Products</Name>
+    <ParentId>4</ParentId>
+  </Catalog>
+</ArrayOfCatalog>
